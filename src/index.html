@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-green-500 flex items-center justify-center h-screen">
+  <section class="container  bg-gray-700 p-10 rounded">
+    <h1 class="text-3xl font-bold mb-4 text-center text-white font-mono">Calculadora</h1>
+    <table class="calculadora w-full max-w-md mx-auto border">
+      <tr>
+        <td colspan="4">
+          <input type="text" class="display text-4xl w-full text-right p-2 border  bg-white border-gray-300">
+        </td>
+      </tr>
+      <tr>
+        <td><button class="btn-clear w-full h-[50px] text-4xl bg-red-400 hover:bg-red-700 cursor-pointer">C</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300 hover:bg-green-700 cursor-pointer">(</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300 hover:bg-green-700 cursor-pointer">)</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300 hover:bg-green-700 cursor-pointer">/</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">7</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">8</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">9</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300  hover:bg-green-700 cursor-pointer">*</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">4</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">5</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">6</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300  hover:bg-green-700 cursor-pointer">+</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">1</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">2</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">3</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-green-300 hover:bg-green-700 cursor-pointer">-</button></td>
+      </tr>
+      <tr>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500  cursor-pointer">.</button></td>
+        <td><button class="btn-num w-full h-[50px] text-4xl bg-gray-300 hover:bg-gray-500 cursor-pointer">0</button></td>
+        <td><button class="btn-del w-full h-[50px] text-4xl bg-blue-400 hover:bg-blue-700 cursor-pointer">&laquo;</button></td>
+        <td><button class="btn-eq w-full h-[50px] text-4xl bg-green-400 hover:bg-green-700 cursor-pointer">=</button></td>
+      </tr>
+    </table>
+  </section>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
